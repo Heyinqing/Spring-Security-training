@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<H1>用户登录</H1>
+<form method="post" th:action="@{/toLogin}">
+    <span>用户名：</span>
+    <label>
+        <input name="username" type="text">
+    </label>
+    <br/>
+    <span>密码：</span>
+    <label>
+        <input name="password" type="password">
+    </label>
+    <button type="submit" value="登录">开始登录</button>
+</form>
+</body>
+</html>

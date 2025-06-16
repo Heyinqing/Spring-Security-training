@@ -3,3 +3,18 @@ server:
 spring:
   application:
     name: security-training
+  security:
+    user:
+      name: root
+      password: 123
+      roles: admin
+  #      关闭thymeleaf的缓存
+  thymeleaf:
+    cache: false
+  #配置数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/security-text?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+
+#    strategy: MODE_INHERITABLETHREADLOCAL

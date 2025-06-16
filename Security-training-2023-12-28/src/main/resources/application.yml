@@ -1,0 +1,9 @@
+server:
+  port: 1716
+spring:
+  application:
+    name: security-training-28
+  security:
+    user:
+      name: root
+      password: 123
